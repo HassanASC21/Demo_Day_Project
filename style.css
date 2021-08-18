@@ -83,8 +83,8 @@ img {
 }
 
 .div2 {
-  width: 300px;
-  height: 300px;  
+  width: 275px;
+  height: 275px;  
   padding: 0px;
   border: 1px solid black;
 }
@@ -102,6 +102,9 @@ img {
   background: linear-gradient(90deg, red, blue, green, aqua, purple);
   background-size: 1800% 1800%;
   animation: rainbow 18s ease infinite;
+  display: inline-block;
+  justify-self: flex-end;
+  justify-content: space-around;
 }
 
 @keyframes rainbow {
@@ -114,6 +117,7 @@ img {
   text-align: center;
 }
 
-h4{
-display: inline;
+#names{
+  display: flex;
+  justify-content: space-around;
 }
